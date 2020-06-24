@@ -24,7 +24,7 @@ use Spacetab\Sdk\Gotenberg\Request;
 
 require __DIR__ . '/vendor/autoload.php';
 
-Loop::run(function () use ($html) {
+Loop::run(function () {
     $logger = Logger::default('Gotenberg', LogLevel::DEBUG);
     $gotenberg = Gotenberg\Client::new('http://0.0.0.0:3000');
     $gotenberg->setLogger($logger);
