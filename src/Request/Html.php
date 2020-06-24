@@ -38,7 +38,7 @@ final class Html extends ArrayIterator
         $this['marginRight'] = $value;
     }
 
-    public function setLandscape(float $value): void
+    public function setLandscape(bool $value): void
     {
         $this['landscape'] = $value;
     }
