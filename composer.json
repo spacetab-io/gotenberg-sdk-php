@@ -1,0 +1,27 @@
+{
+  "name": "spacetab-io/gotenberg-sdk",
+  "description": "Asynchronous PHP Gotenberg SDK.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "roquie",
+      "email": "roquie0@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "amphp/http-client": "^4.2",
+    "psr/log": "^1.1",
+    "kelunik/retry": "^1.0",
+    "amphp/file": "^1.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5",
+    "spacetab-io/logger": "^2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Spacetab\\Sdk\\Gotenberg\\": "src/"
+    }
+  }
+}
